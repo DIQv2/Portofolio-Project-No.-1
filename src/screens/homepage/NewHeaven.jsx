@@ -1,7 +1,6 @@
 import newHeavenLogo from '../../assets/images/new-heaven-logo-with-shadow.png';
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import CancelCircleIcon from "../../assets/icons/cancel-circle-stroke-rounded";
-import Parallax from "parallax-js";
 
 const NewHeaven = () => {
     const [isOpen, setIsOpen] = useState(false);
