@@ -45,7 +45,7 @@ const NewHeaven = () => {
                     <div className="flex justify-between items-center">
                         <div
                             className="text-center w-[100%] md:text-start md:w-fit text-3xl text-white drop-shadow-2xl text-shadow">
-                            The New Heaven Movement
+                            What is Lorem Ipsum?
                         </div>
                         <CancelCircleIcon
                             className="hidden w-10 h-10 bg-transparent cursor-pointer rounded-full md:inline"
@@ -53,11 +53,13 @@ const NewHeaven = () => {
                     </div>
                     <hr className="mt-4 mb-3 border-2 border-white"/>
                     <div className="text-center md:text-start text-xl text-black">
-                        A paramilitary social movement that began in the oppressed Iron Gates kingdom, formed by
-                        multiple factions with aligned interests. The movement started in Feinhdall, where the
-                        united
-                        forces of New Heaven and Æhre launched a coordinated night attack against the Sandorium
-                        occupiers, igniting the flames of rebellion and setting the stage for the uprising.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.
                     </div>
                 </div>
             </div>

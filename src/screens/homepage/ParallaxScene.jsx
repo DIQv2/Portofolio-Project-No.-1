@@ -30,17 +30,16 @@ const ParallaxScene = () => {
                 <div className="absolute w-full h-full" data-depth={0.23}>
                     <div className="flex justify-center items-center w-full h-full">
                         <div className="flex flex-col gap-4 justify-center items-center max-w-[350px]">
-                            <div className="text-white text-5xl md:text-[4rem] font-bold text-shadow drop-shadow-2xl shadow-white">
-                                Feinhdall
+                            <div className="text-white text-4xl md:text-[2rem] font-bold text-shadow drop-shadow-2xl shadow-white">
+                                Parralax Js is cool!
                             </div>
                             <hr className="border-[3px] border-white w-full"/>
                             <div className="text-2xl text-white text-center">
-                                The start of the revolution.
+                                But it takes a while to load...
                                 <br/>
-                                "Through the clouds of the night sky, spheres of fire start to fall upon the city. As everything was descending into chaos, one single crying
-                                whisper could be heard...
+                                Random text that nobody will ever read :) Blah blah... What will I eat tomorrow? Why are you still reading this?
                                 <br/>
-                                'She is here'
+                                Oke, bye bye now!
                             </div>
                         </div>
                     </div>

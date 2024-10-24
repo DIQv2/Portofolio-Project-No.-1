@@ -3,7 +3,6 @@ import InstagramIcon from "../../assets/icons/instagram-stroke-rounded";
 import YoutubeIcon from "../../assets/icons/youtube-stroke-rounded";
 import Mouse01Icon from "../../assets/icons/mouse-01-stroke-rounded";
 import {renderCurrentDate} from "../../utils/functions/renderCurrentDate";
-import {renderEphreemianDate} from "../../utils/functions/renderEphreemianDate";
 const LandingScreen = () => {
     return(
         <div className="w-full h-full">
@@ -14,11 +13,11 @@ const LandingScreen = () => {
                 <div className="flex flex-col justify-center items-center gap-8">
                     <div
                         className="text-5xl md:text-8xl text-center cursor-pointer text-shadow font-bold md:hover:text-white transition-colors duration-500">
-                        Book of Ephreem
+                        Portofolio
                     </div>
                     <hr className="border-2 border-black w-full"/>
                     <div className="text-5xl cursor-pointer text-shadow font-bold md:hover:text-white transition-colors duration-500">
-                        Ililith
+                        Michael B.
                     </div>
                 </div>
             </div>
@@ -40,10 +39,6 @@ const LandingScreen = () => {
                         <div className="hidden text-black text-2xl font-bold text-center md:inline">
                             {renderCurrentDate()}
                         </div>
-                        <hr className="hidden border-2 border-black md:inline"/>
-                        <div className="text-black text-2xl font-bold text-center">
-                            {renderEphreemianDate()}
-                        </div>
                     </div>
                 </div>
             </div>
@@ -63,9 +58,9 @@ const LandingScreen = () => {
                 </div>
             </div>
 
-            <div className="absolute bottom-[10px] right-[20px] text-end text-lg text-white">Platform made possible by
-                The Professor
-            </div>
+            <a href="https://ililith.netlify.app/" target="_blank" rel="noreferrer" className="absolute bottom-[10px] right-[20px] text-end text-lg text-white">
+                Link to original page (also made by me)
+            </a>
         </div>
     )
 }

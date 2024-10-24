@@ -16,7 +16,6 @@ const NewHeavenFactions = () => {
 
     const renderFactions = () => (
         <div className="w-full h-full flex flex-col md:flex-row justify-center items-center">
-            {/* Æhre Faction */}
             <div
                 className={`h-[25%] w-full md:h-[80%] md:w-[20%] relative flex justify-center items-center cursor-pointer md:border-l-2 border-white`}
                 onMouseEnter={() => setHoveredItem(0)}
@@ -28,7 +27,6 @@ const NewHeavenFactions = () => {
                 <img src={aehreBrand} alt="aehre brand" className="max-h-[80%] z-10 drop-shadow-2xl"/>
             </div>
 
-            {/* New Heaven Faction */}
             <div
                 className={`h-[25%] w-full md:h-[80%] md:w-[20%] relative flex justify-center items-center cursor-pointer md:border-l-2 md:border-r-2 border-white`}
                 onMouseEnter={() => setHoveredItem(1)}
@@ -41,7 +39,6 @@ const NewHeavenFactions = () => {
                 <img src={newHeavenBrand} alt="new heavem brand" className="max-h-[80%] z-10 drop-shadow-2xl"/>
             </div>
 
-            {/* Hyakuthen Faction */}
             <div
                 className={`h-[25%] w-full md:h-[80%] md:w-[20%] relative flex justify-center items-center cursor-pointer md:border-r-2 border-white`}
                 onMouseEnter={() => setHoveredItem(2)}
@@ -74,15 +71,16 @@ const NewHeavenFactions = () => {
                 <div className="relative flex w-full h-full justify-center md:justify-start items-center z-20 gap-16">
                     <div
                         className="relative h-full w-[90%] flex flex-col justify-center items-center md:items-start text-white md:w-[40%] max-w-[500px] md:ml-[15%]">
-                        <div className="text-4xl drop-shadow-2xl text-shadow">Æhre</div>
+                        <div className="text-4xl drop-shadow-2xl text-shadow">Why do we use it?</div>
                         <hr className="mt-4 mb-3 border-2 border-white w-full"/>
                         <div className="text-xl text-center md:text-start">
-                            The insurgence of the original citizens of the Iron Gates kingdom, rebelling against the
-                            Bwovn Empire’s suzerainity. They aim to overthrow the oppressive regime that has subjugated them
-                            into
-                            mere laborers.. Their name comes from the kingdom’s original name of Æhrein, meaning “Iron
-                            Mountains” in their home language, dornohian. They are also known by as the “Army of
-                            Liberation”.
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                            here', making it look like readable English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                            uncover many web sites still in their infancy. Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose (injected humour and the like).
                         </div>
                     </div>
                     <div className="h-[60%] w-fit relative items-center hidden md:flex">
@@ -98,7 +96,7 @@ const NewHeavenFactions = () => {
         )
     }
     const renderNewHeaven = () => {
-        return(
+        return (
             <div className="h-full w-full overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-new-heaven-main bg-cover bg-center z-0 opacity-20" />
                 <div
@@ -117,13 +115,14 @@ const NewHeavenFactions = () => {
                 <div className="relative flex w-full h-full justify-center md:justify-start items-center z-20 gap-16">
                     <div
                         className="relative h-full w-[90%] flex flex-col justify-center items-center md:items-start text-white md:w-[40%] max-w-[500px] md:ml-[15%]">
-                        <div className="text-4xl drop-shadow-2xl text-shadow">New Heaven</div>
+                        <div className="text-4xl drop-shadow-2xl text-shadow">Where does it come from?</div>
                         <hr className="mt-4 mb-3 border-2 border-white w-full"/>
                         <div className="text-xl text-center md:text-stat">
-                            A radical ideologist organization, aiming to bring about the death of all the gods and the
-                            birth of a new one, creating a world of absolute peace. They aim to bring peace by causing
-                            absolute chaos, bringing about the reveal of Equilibrium, an object keeping the border
-                            between the three worlds, the material world, the spirit world, and Heaven.
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
+                            word in classical literature, discovered the undoubtable source.
                         </div>
                     </div>
                     <div className="h-[60%] w-fit relative items-center hidden md:flex">
@@ -136,7 +135,7 @@ const NewHeavenFactions = () => {
         )
     }
     const renderHyakuthen = () => {
-        return(
+        return (
             <div className="h-full w-full overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-battlefield bg-cover bg-center z-0 opacity-40"/>
                 <div
@@ -147,7 +146,8 @@ const NewHeavenFactions = () => {
                 >
                     <div className={"flip-card-inner"}>
                         <div className="flip-card-front">
-                            <img src={hyakuthenBrand} alt="hyakuthen brand" className="drop-shadow-2xl cursor-pointer invert"/>
+                            <img src={hyakuthenBrand} alt="hyakuthen brand"
+                                 className="drop-shadow-2xl cursor-pointer invert"/>
                         </div>
                         <div className="flip-card-back">
                             <img src={newHeavenLogo} alt="new heaven logo" className="drop-shadow-2xl cursor-pointer invert"/>
@@ -160,14 +160,20 @@ const NewHeavenFactions = () => {
                     </div>
                 </div>
                 <div className="relative flex w-full h-full items-center z-20 gap-16 justify-center">
-                <div className="relative md:mr-[25%] h-full flex flex-col justify-center items-center text-white w-[90%] md:w-[40%] max-w-[500px] lg:mr-0">
-                        <div className="text-4xl drop-shadow-2xl text-shadow">Hyakuthen</div>
+                    <div
+                        className="relative md:mr-[25%] h-full flex flex-col justify-center items-center text-white w-[90%] md:w-[40%] max-w-[500px] lg:mr-0">
+                        <div className="text-4xl drop-shadow-2xl text-shadow">Where can I get some?</div>
                         <hr className="mt-4 mb-3 border-2 border-white w-full"/>
                         <div className="text-xl text-center">
-                            The organized united army of all the kalzraaks in the Iron Gates kingdom and around, all
-                            under the same leader, the Sangv’dhinaes. Formerly without a nation, the kalzraaks have all
-                            been united under the same banner, the royal flag of Hyakuthen, the promised kingdom of the
-                            kalzraaks.
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+                            sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            generators on the Internet tend to repeat predefined chunks as necessary, making this the
+                            first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
+                            with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or
+                            non-characteristic words etc.
                         </div>
                     </div>
                 </div>
