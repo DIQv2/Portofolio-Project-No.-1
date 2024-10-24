@@ -78,8 +78,7 @@ const NewHeavenFactions = () => {
                         <hr className="mt-4 mb-3 border-2 border-white w-full"/>
                         <div className="text-xl text-center md:text-start">
                             The insurgence of the original citizens of the Iron Gates kingdom, rebelling against the
-                            Sandorium
-                            Empire’s suzerainity. They aim to overthrow the oppressive regime that has subjugated them
+                            Bwovn Empire’s suzerainity. They aim to overthrow the oppressive regime that has subjugated them
                             into
                             mere laborers.. Their name comes from the kingdom’s original name of Æhrein, meaning “Iron
                             Mountains” in their home language, dornohian. They are also known by as the “Army of
